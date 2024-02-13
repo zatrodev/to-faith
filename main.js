@@ -28,8 +28,12 @@ yes.addEventListener("click", () => {
   document.getElementById("options").style.visibility = "hidden";
   document.getElementById("message").style.visibility = "hidden";
 
+  const kiss = document.createElement("div");
+  kiss.id = "kiss";
+  kiss.style.visibility = "visible";
+
   content.textContent = "I'll see you Friday, baby. Mwua.";
-  document.getElementById("kiss").style.visibility = "visible";
+  content.appendChild(kiss);
 });
 
 no.addEventListener("click", () => {
