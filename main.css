@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#cute__content {
+  visibility: hidden;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+#flowers {
+  background-image: url("./flowers.png");
+  width: 290px;
+  height: 100px;
+  background-size: cover;
+}
+
+#cat {
+  position: fixed;
+  top: 350%;
+  left: 50%;
+  background-image: url(./cat.gif);
+  width: 150px;
+  height: 125px;
+  background-size: cover;
+  text-align: right;
+  font-size: 0.75rem;
+}
+
+#options {
+  visibility: hidden;
+  position: absolute;
+  top: 57.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.option {
+  position: absolute;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.option div {
+  font-size: 1rem;
+  width: 75px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#yes {
+  margin-right: 150px;
+  background-color: #77a265;
+}
+
+#no {
+  margin-left: 150px;
+  background-color: #fe7f7f;
+}
+
+#message {
+  position: absolute;
+  text-align: center;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#kiss {
+  visibility: hidden;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(./kiss.gif);
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+}
