@@ -26,6 +26,7 @@ async function main() {
 yes.addEventListener("click", () => {
   document.getElementById("cute__content").style.visibility = "hidden";
   document.getElementById("options").style.visibility = "hidden";
+  document.getElementById("message").style.visibility = "hidden";
 
   content.textContent = "I'll see you Friday, baby. Mwua.";
   document.getElementById("kiss").style.visibility = "visible";
@@ -69,7 +70,7 @@ no.addEventListener("click", () => {
       setTimeout(() => {
         no.style.visibility = "hidden";
         message.textContent = "ayan wala ka ng no hahaha iyak";
-      }, 25500);
+      }, 2500);
       break;
   }
 });
